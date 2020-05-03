@@ -1,0 +1,55 @@
+#main {
+  background-color: #222327;
+  height: 100vh;
+
+  .row-unit-control {
+    height: 50vh;
+
+    padding-top: 15px;
+
+    .col-plant {
+      padding-right: 15px;
+    }
+
+    .col-plant:first-of-type {
+      padding-left: 0;
+    }
+
+    .col-plant:last-of-type {
+      padding-right: 0;
+    }
+
+    .plant-unit {
+      background-color: #26262b;
+      height: 100%;
+      color: aliceblue;
+      border: 1px solid #3e3e44;
+      padding: 15px;
+
+      .row {
+        margin-bottom: 15px;
+      }
+
+      .row:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .current-level span {
+        text-shadow: 0 3px 0 rgba(46, 150, 150, 1);
+        font-size: 3rem;
+        font-weight: bold;
+      }
+
+
+      .pump-at {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+    }
+  }
+
+  .row-graph {
+    height: 50vh;
+  }
+}
